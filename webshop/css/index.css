@@ -1,5 +1,5 @@
 .h_image {
-    background-image: linear-gradient(to right, rgba(202, 202, 202, 0.52), rgba(66, 66, 66, 0.73)), url(https://cdn.pixabay.com/photo/2016/12/01/18/17/mobile-phone-1875813_640.jpg);
+    background-image: linear-gradient(to right, rgba(202, 202, 202, 0.52), rgba(66, 66, 66, 0.73)), url(https://images.pexels.com/photos/788946/pexels-photo-788946.jpeg?auto=compress&cs=tinysrgb&w=600);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -14,7 +14,6 @@ h1 {
     left: 5%;
     line-height: 3rem;
     font-size: xx-large;
-    color: white;
     letter-spacing: 4px;
 }
 

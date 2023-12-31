@@ -9,9 +9,10 @@ img {
     object-fit: contain;
 }
 
-.logo {
+.logo a {
     display: flex;
     align-items: center;
+    color: black;
 }
 
 .head {
@@ -81,4 +82,21 @@ nav {
 
 a {
     text-decoration: none;
+    color: black;
+}
+
+.cart {
+    position: relative;
+}
+
+.one {
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    right: -10%;
+    left: 98.2%;
+}
+
+a:hover:not(.logo a) {
+    text-decoration: overline;
 }
