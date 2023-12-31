@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    max-width: 1200px;
+    position: absolute;
+    top: 200px;
+    left: 10%;
+    right: 10%;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+li {
+    text-align: justify;
+    font-size: large;
+    line-height: 30px;
+    margin: 20px 0;
+}
+
+body {
+    min-height: 200vh;
+    display: grid;
+    grid-template-rows: 1fr auto;
+}

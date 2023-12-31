@@ -1,0 +1,103 @@
+main {
+    max-width: 1200px;
+    position: absolute;
+    top: 200px;
+    left: 10%;
+    right: 10%;
+}
+
+.introduction {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 30px;
+
+}
+
+.introduction img {
+    margin-top: 30px;
+    border-radius: 40px;
+}
+
+.story,
+.core {
+    display: flex;
+    flex-direction: row;
+    margin-top: 200px;
+    text-align: justify;
+    gap: 40px;
+}
+
+.story img,
+.mission img,
+.core img,
+.comm img {
+    border-radius: 40px;
+}
+
+.story p,
+.mission p,
+.core p,
+.comm p {
+    margin-top: 40px;
+}
+
+.mission,
+.comm {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 200px;
+    text-align: justify;
+    gap: 40px;
+}
+
+.choose,
+.team {
+    margin-top: 200px;
+}
+
+.chooselist {
+    display: flex;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.chooselist p {
+    background-color: rgb(180, 180, 180);
+    border-radius: 40px;
+    padding: 25px;
+    text-align: center;
+}
+
+.last {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.comm img {
+    margin-top: 150px;
+}
+
+.member {
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.member img {
+    width: 550px;
+    height: 200px;
+    border-radius: 40%;
+}
+
+.first {
+    margin-top: 30px;
+}
+
+body {
+    min-height: 830vh;
+    display: grid;
+    grid-template-rows: 1fr auto;
+}

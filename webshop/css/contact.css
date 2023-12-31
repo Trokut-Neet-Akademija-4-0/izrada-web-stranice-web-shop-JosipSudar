@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    max-width: 1200px;
+    position: absolute;
+    top: 200px;
+    left: 10%;
+    right: 10%;
+}
+
+.contactgrid {
+    display: flex;
+    margin-top: 100px;
+    gap: 20px;
+}
+
+.contactheader {
+    text-align: center;
+}
+
+.contactheader h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    letter-spacing: 5px;
+}
+
+.contactheader p {
+    font-size: 20px;
+}
+
+.contactgrid div {
+    background-color: rgb(216, 216, 216);
+    text-align: justify;
+    padding: 20px;
+    width: 20%;
+    border-radius: 10px;
+}
+
+.contactgrid h3 {
+    text-align: center;
+    margin-bottom: 10px;
+    word-spacing: 5px;
+}
+
+.last {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+body {
+    min-height: 130vh;
+    display: grid;
+    grid-template-rows: 1fr auto;
+}
