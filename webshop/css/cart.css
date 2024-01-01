@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    max-width: 1200px;
+    position: absolute;
+    top: 200px;
+    left: 10%;
+    right: 10%;
+}
+
+section {
+    display: flex;
+    align-items: center;
+}
+
+section img {
+    width: 10%;
+    height: 10%;
+}
+
+.quantity {
+    display: flex;
+    gap: 10px;
+    margin-left: auto;
+    margin-right: 30px;
+    align-items: center;
+}
+
+.name {
+    margin-left: 20px;
+}
+
+.name h3 {
+    font-size: 30px;
+}
+
+.name p {
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.last {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.quantity button {
+    background-color: transparent;
+    border: none;
+}
+
+hr {
+    margin: 50px 0;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+.cart-total {
+    display: flex;
+    flex-direction: column;
+}
+
+.cart-total p {
+    margin: 30px 0;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.cart-total button {
+    width: 300px;
+    padding: 10px;
+    border: none;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+
+.lastbtn {
+    background-color: black;
+    color: whitesmoke;
+}
+
+body {
+    min-height: 180vh;
+    display: grid;
+    grid-template-rows: 1fr auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 100px;
+    letter-spacing: 5px;
+}
+
+h1 svg {
+    width: 1em;
+    height: 0.7em;
+}
