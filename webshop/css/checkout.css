@@ -72,6 +72,7 @@ main {
     background-color: gainsboro;
     padding: 30px;
     color: white;
+    border-radius: 10px;
 }
 
 .details :not(h3) {

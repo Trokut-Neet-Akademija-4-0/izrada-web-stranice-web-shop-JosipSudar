@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100px;
+    height: 150px;
+    margin-left: 25%;
+    margin-bottom: 15px;
+}
+
+body {
+    overflow: hidden;
+}
+
+h2 {
+    font-size: 14px;
+}
+
+p {
+    font-size: smaller;
+    margin: 5px 0;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+    margin: 15px 0;
+    border-radius: 5px;
+}
+
+.compare {
+    float: right;
+    padding: 5px;
+}
+
+.buy {
+    background-color: orangered;
+    color: whitesmoke;
+    padding: 5px;
+}
+
+button svg {
+    width: 20px;
+    height: 20px;
+}

@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    max-width: 1200px;
+    position: absolute;
+    top: 200px;
+    left: 10%;
+    right: 10%;
+}
+
+.productdiv {
+    display: flex;
+    justify-content: space-between;
+}
+
+.asideproducts iframe {
+    top: 200px;
+    height: 150vh;
+}
+
+aside {
+    width: 25%;
+}
+
+section {
+    width: 72%;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top h1 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.topdiv {
+    float: right;
+}
+
+hr {
+    margin: 40px 0;
+}
+
+.phones {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+}
+
+.phones article {
+    border: 2px solid gainsboro;
+    padding: 10px;
+    width: fit-content;
+}
+
+.phones iframe {
+    height: 40vh;
+    width: 17vw;
+}
+
+.pagination {
+    display: flex;
+    margin-left: 40%;
+    margin-top: 50px;
+}
+
+.pagination a {
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+body {
+    min-height: 250vh;
+    display: grid;
+    grid-template-rows: 1fr auto;
+}

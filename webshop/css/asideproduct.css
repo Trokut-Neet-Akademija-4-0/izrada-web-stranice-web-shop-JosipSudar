@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+section {
+    margin: 30px 0;
+    background-color: gainsboro;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.brands label,
+.rest label {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.brands input,
+.rest input {
+    margin-right: 10px;
+    float: right;
+    height: 30px;
+    width: 15px;
+}
+
+.brands p,
+.rest p {
+    margin-bottom: 15px;
+}
+
+.price input {
+    width: 111px;
+}
+
+.price p {
+    margin-bottom: 15px;
+}
+
+hr {
+    margin: 5px 0;
+}
