@@ -1,239 +1,266 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Roboto&display=swap");
+
 .h_image {
-    background-image: linear-gradient(to right, rgba(202, 202, 202, 0.52), rgba(66, 66, 66, 0.73)), url(https://images.pexels.com/photos/788946/pexels-photo-788946.jpeg?auto=compress&cs=tinysrgb&w=600);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 100vh;
-    z-index: -1;
+  background-image: linear-gradient(
+      to right,
+      rgba(202, 202, 202, 0.52),
+      rgba(66, 66, 66, 0.73)
+    ),
+    url(https://images.pexels.com/photos/788946/pexels-photo-788946.jpeg?auto=compress&cs=tinysrgb&w=600);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
 }
 
 h1 {
-    position: absolute;
-    top: 25%;
-    left: 5%;
-    line-height: 3rem;
-    font-size: xx-large;
-    letter-spacing: 4px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+p,
+span {
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+h1 {
+  position: absolute;
+  top: 40%;
+  left: 5%;
+  line-height: 3rem;
+  font-size: xx-large;
+  letter-spacing: 4px;
 }
 
 .shop_now {
-    max-width: 1200px;
-    margin: 50px auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+  max-width: 1200px;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .shop_now img {
-    height: 100%;
-    width: 100%;
+  height: 100%;
+  width: 100%;
 }
 
 .shop1,
 .shop2 {
-    padding: 10px;
+  padding: 10px;
 }
 
 .shop_now p {
-    font-weight: bold;
-    font-size: 20px;
-    padding: 20px 15px;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 20px 15px;
 }
 
 .shop_now a {
-    text-decoration: none;
-    padding: 15px;
-    color: gray;
+  text-decoration: none;
+  padding: 15px;
+  color: gray;
 }
 
 hr {
-    border: 1px solid gray;
-    max-width: 1200px;
-    margin-top: 120px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 0;
+  border: 1px solid gray;
+  max-width: 1200px;
+  margin-top: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
 }
 
 .featured {
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 70px;
-    text-align: center;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 70px;
+  text-align: center;
 }
 
 .featured h2 {
-    font-weight: normal;
-    font-size: 40px;
-    margin-bottom: 15px;
+  font-weight: normal;
+  font-size: 40px;
+  margin-bottom: 15px;
 }
 
 .featured a {
-    text-decoration: none;
-    color: gray;
+  text-decoration: none;
+  color: gray;
 }
 
 .grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    gap: 10px;
-    margin-top: 30px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+  margin-top: 30px;
 }
 
 .grid-item {
-    background-color: rgb(228, 228, 228);
-    border-radius: 3px;
-    padding: 20px;
-    font-size: 30px;
+  background-color: rgb(228, 228, 228);
+  border-radius: 3px;
+  padding: 20px;
+  font-size: 30px;
 }
 
 .grid-item img {
-    height: 200px;
-    width: 200px;
-    text-align: center;
+  height: 200px;
+  width: 200px;
+  text-align: center;
 }
 
 .grid-item p {
-    font-size: 14px;
-    font-weight: bold;
-    margin-top: 5px;
-    text-align: left;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 5px;
+  text-align: left;
 }
 
 .details {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .details span {
-    font-weight: lighter;
-    font-size: small;
-    color: beige;
+  font-weight: lighter;
+  font-size: small;
+  color: beige;
 }
 
 .details a {
-    margin-left: auto;
+  margin-left: auto;
 }
 
 .details svg {
-    height: 30px;
-    width: 30px;
-    padding: 2px;
+  height: 30px;
+  width: 30px;
+  padding: 2px;
 }
 
 .blog {
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
 }
 
 .bloggrid {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    gap: 10px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
 }
 
 .blogitem img {
-    width: 100%;
-    height: 300px;
+  width: 100%;
+  height: 300px;
 }
 
 .blog h2 {
-    text-align: center;
-    font-weight: normal;
-    font-size: 40px;
-    margin-bottom: 15px;
-    margin-top: 200px;
+  text-align: center;
+  font-weight: normal;
+  font-size: 40px;
+  margin-bottom: 15px;
+  margin-top: 200px;
 }
 
 .bloggrid span {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 .blogitem p:nth-child(3) {
-    font-size: larger;
-    margin-top: 20px;
-    font-weight: bold;
-    margin-bottom: 10px;
+  font-size: larger;
+  margin-top: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 
 .blogitem p:nth-child(2) {
-    font-size: small;
-    margin-top: 10px;
+  font-size: small;
+  margin-top: 10px;
 }
 
 .blogitem a {
-    font-size: smaller;
-    color: rgb(184, 184, 184);
-    text-decoration: none;
+  font-size: smaller;
+  color: rgb(184, 184, 184);
+  text-decoration: none;
 }
 
 .newsletter {
-    background-color: gray;
-    margin-top: 150px;
-    height: 50vh;
+  background-color: gray;
+  margin-top: 150px;
+  height: 50vh;
 }
 
 .newsletter-content {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: row;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
 }
 
 .newsletter-content h2 {
-    font-size: 50px;
-    color: white;
-    padding-top: 30px;
-    padding-bottom: 20px;
-    text-align: center;
+  font-size: 50px;
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  text-align: center;
 }
 
 .newsletter-content p {
-    font-size: 30px;
-    color: white;
-    margin-top: 10%;
+  font-size: 30px;
+  color: white;
+  margin-top: 10%;
 }
 
 .newsletter-content input[type="text"] {
-    margin-top: 40%;
-    width: 80%;
-    height: 15%;
+  margin-top: 40%;
+  width: 80%;
+  height: 15%;
 }
 
 .newsletter-content input[type="text"]::placeholder {
-    padding: 15px;
-    color: black;
+  padding: 15px;
+  color: black;
 }
 
 .newsletter-content button {
-    margin-left: -5px;
-    height: 15.8%;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-    border: none;
-    padding-left: 15px;
-    padding-right: 15px;
+  margin-left: -5px;
+  height: 15.8%;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border: none;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .newsletter-content input[type="checkbox"] {
-    height: 20px;
-    width: 30px;
-    margin-top: 10px;
-    margin-right: 5px;
+  height: 20px;
+  width: 30px;
+  margin-top: 10px;
+  margin-right: 5px;
 }
 
 .check {
-    margin-top: 10px;
-    display: flex;
-    color: white;
-    font-size: medium;
+  margin-top: 10px;
+  display: flex;
+  color: white;
+  font-size: medium;
 }
 
 footer {
-    margin-top: 200px;
-    height: fit-content;
+  margin-top: 200px;
+  height: fit-content;
 }

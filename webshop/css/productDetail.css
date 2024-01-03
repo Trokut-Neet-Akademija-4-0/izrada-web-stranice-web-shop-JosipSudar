@@ -1,0 +1,214 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  max-width: 1200px;
+  position: absolute;
+  top: 200px;
+  left: 10%;
+  right: 10%;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.thumbnail {
+  width: 80%;
+  height: 60%;
+  display: flex;
+  margin: 0 auto;
+}
+
+.main-gallery,
+.main-info {
+  width: 50%;
+}
+
+.gallery img {
+  width: 23%;
+}
+
+.gallery {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.main-info h2 {
+  font-size: 35px;
+  text-align: center;
+}
+
+.price {
+  display: flex;
+  margin: 60px 0;
+  font-size: large;
+  align-items: center;
+}
+
+.price-button {
+  margin-left: auto;
+}
+
+.price-button button {
+  padding: 5px 5px;
+  background-color: transparent;
+}
+
+.cart {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 60px;
+}
+
+.cart button {
+  width: 25%;
+  padding: 5px 0;
+  background-color: transparent;
+}
+
+.delivery {
+  display: flex;
+  font-size: 24px;
+}
+
+.delivery div {
+  width: 50%;
+}
+
+.specs-grid {
+  margin: 80px 0;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  text-align: center;
+}
+
+.specs-grid div {
+  border: 1px solid gainsboro;
+  padding: 20px;
+}
+
+.specs-grid p {
+  margin-top: 5px;
+  font-size: 17px;
+}
+
+.colors p {
+  font-size: 20px;
+}
+
+.colors div {
+  margin-top: 20px;
+  display: flex;
+  gap: 5px;
+}
+
+.colors button {
+  width: 33%;
+  background-color: transparent;
+}
+
+.desc h3 {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.desc p {
+  margin: 20px 0;
+}
+
+.rating {
+  margin-top: 100px;
+  box-sizing: border-box;
+}
+
+.heading {
+  font-size: 25px;
+  margin-right: 25px;
+}
+
+.fa {
+  font-size: 25px;
+}
+
+.checked {
+  color: orange;
+}
+
+.side {
+  float: left;
+  width: 15%;
+  margin-top: 10px;
+}
+
+.middle {
+  float: left;
+  width: 70%;
+  margin-top: 10px;
+}
+
+.right {
+  text-align: right;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.bar-container {
+  width: 100%;
+  background-color: #f1f1f1;
+  text-align: center;
+  color: white;
+}
+
+.bar-5 {
+  width: 60%;
+  height: 18px;
+  background-color: #04aa6d;
+}
+.bar-4 {
+  width: 30%;
+  height: 18px;
+  background-color: #2196f3;
+}
+.bar-3 {
+  width: 10%;
+  height: 18px;
+  background-color: #00bcd4;
+}
+.bar-2 {
+  width: 4%;
+  height: 18px;
+  background-color: #ff9800;
+}
+.bar-1 {
+  width: 15%;
+  height: 18px;
+  background-color: #f44336;
+}
+
+body {
+  min-height: 270vh;
+  display: grid;
+  grid-template-rows: 1fr auto;
+}
+
+@media (max-width: 400px) {
+  .side,
+  .middle {
+    width: 100%;
+  }
+  .right {
+    display: none;
+  }
+}

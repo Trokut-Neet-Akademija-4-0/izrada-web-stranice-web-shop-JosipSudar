@@ -1,102 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
+
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
 }
 
 img {
-    width: 70px;
-    height: 70px;
-    object-fit: contain;
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
 }
 
 .logo a {
-    display: flex;
-    align-items: center;
-    color: black;
+  display: flex;
+  align-items: center;
+  color: black;
 }
 
 .head {
-    display: flex;
-    flex-direction: row;
-    padding: 5px;
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
 }
 
 .right {
-    margin-left: auto;
+  margin-left: auto;
 }
 
 .f_row {
-    display: flex;
-    align-items: center;
-    margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
 }
 
 .h_icons {
-    display: flex;
+  display: flex;
 }
 
 button {
-    border: none;
-    background-color: transparent;
+  border: none;
+  background-color: transparent;
 }
 
 p {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 svg {
-    margin: 0 10px
+  margin: 0 10px;
 }
 
 span {
-    margin-right: 30px;
-    font-size: 12px;
+  margin-right: 30px;
+  font-size: 12px;
 }
 
 .logo span {
-    font-size: 40px;
-    margin-left: 12px;
+  font-size: 40px;
+  margin-left: 12px;
+  font-weight: 700;
 }
 
 .s_row {
-    display: flex;
-    justify-content: flex-end;
-    margin-bottom: 15px;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 15px;
 }
 
 input {
-    border: 1px solid black;
-    border-radius: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
 }
 
 .t_row {
-    padding: 5px;
+  padding: 5px;
 }
 
 nav {
-    display: flex;
-    justify-content: space-evenly;
-    font-size: large;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: large;
+  font-weight: 500;
 }
 
 a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 .cart {
-    position: relative;
+  position: relative;
 }
 
 .one {
-    position: absolute;
-    width: 7px;
-    height: 7px;
-    right: -10%;
-    left: 98.2%;
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  right: -10%;
+  left: 98.2%;
 }
 
 a:hover:not(.logo a) {
-    text-decoration: overline;
+  text-decoration: overline;
 }
