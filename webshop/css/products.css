@@ -1,6 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Roboto&display=swap');
+
 * {
     margin: 0;
     padding: 0;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
 }
 
 main {
@@ -56,9 +63,10 @@ hr {
 }
 
 .phones article {
-    border: 2px solid gainsboro;
+    border: 1px solid gray;
     padding: 10px;
     width: fit-content;
+    border-radius: 5px;
 }
 
 .phones iframe {
@@ -78,8 +86,19 @@ hr {
     text-decoration: none;
 }
 
+.pagination a:hover {
+    background-color: goldenrod;
+    color: white;
+}
+
+.pagination a:nth-child(2) {
+    background-color: goldenrod;
+    color: white;
+}
+
 body {
     min-height: 250vh;
     display: grid;
     grid-template-rows: 1fr auto;
+    background-color: #f5f5f5;
 }

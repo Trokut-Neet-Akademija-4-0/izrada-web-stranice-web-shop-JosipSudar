@@ -13,6 +13,7 @@ object {
 div button {
     background-color: transparent;
     padding: 10px;
+    border: 2px solid gray;
 }
 
 div input {
@@ -20,4 +21,13 @@ div input {
     border-radius: 5px;
     border: 1px solid black;
     width: 200px;
+}
+
+button:hover {
+    border: 2px solid goldenrod;
+    color: goldenrod;
+}
+
+input:focus {
+    outline: none;
 }

@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Roboto&display=swap');
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -36,8 +47,8 @@ button {
 }
 
 .buy {
-    background-color: orangered;
-    color: whitesmoke;
+    background-color: goldenrod;
+    color: white;
     padding: 5px;
 }
 

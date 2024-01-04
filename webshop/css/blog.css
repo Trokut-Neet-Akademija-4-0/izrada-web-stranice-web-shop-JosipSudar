@@ -1,6 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
+
 * {
     margin: 0;
     padding: 0;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
 }
 
 main {
@@ -22,6 +28,10 @@ main {
     font-size: 40px;
     text-align: center;
     padding: 165px 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: gainsboro;
+    text-shadow: 1px 1px 1px black;
 }
 
 .blog-paragraph {
@@ -40,7 +50,8 @@ main {
 
 .main-blog h2 {
     font-size: 35px;
-    font-weight: bold;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .man-image img {
@@ -98,8 +109,28 @@ aside iframe {
     text-decoration: none;
 }
 
+.pagination a:hover {
+    background-color: goldenrod;
+    color: white;
+}
+
+.pagination a:nth-child(2) {
+    background-color: goldenrod;
+    color: white;
+}
+
 body {
     min-height: 690vh;
     display: grid;
     grid-template-rows: 1fr auto;
+    background-color: #f5f5f5;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: goldenrod;
 }

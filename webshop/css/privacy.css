@@ -1,3 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Roboto&display=swap");
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+p,
+li {
+    font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -50,4 +67,12 @@ body {
     min-height: 250vh;
     display: grid;
     grid-template-rows: 1fr auto;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: goldenrod;
 }

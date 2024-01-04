@@ -6,6 +6,7 @@
   font-family: "Montserrat", sans-serif;
 }
 
+
 img {
   width: 70px;
   height: 70px;
@@ -15,13 +16,15 @@ img {
 .logo a {
   display: flex;
   align-items: center;
-  color: black;
+  color: white;
 }
 
 .head {
   display: flex;
   flex-direction: row;
   padding: 5px;
+  background: rgba(51, 51, 51, 0.411);
+  color: white;
 }
 
 .right {
@@ -41,6 +44,7 @@ img {
 button {
   border: none;
   background-color: transparent;
+  color: white;
 }
 
 p {
@@ -75,7 +79,8 @@ input {
 }
 
 .t_row {
-  padding: 5px;
+  padding: 10px;
+  background: rgba(51, 51, 51, 0.411);
 }
 
 nav {
@@ -87,7 +92,7 @@ nav {
 
 a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 .cart {
