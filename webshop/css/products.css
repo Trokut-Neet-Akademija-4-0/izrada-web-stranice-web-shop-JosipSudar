@@ -164,7 +164,7 @@ body {
     }
 
     body {
-        min-height: 320vh;
+        min-height: 250vh;
     }
 
     .pagination {
@@ -173,5 +173,69 @@ body {
 
     footer iframe {
         height: 140vh;
+    }
+
+    header iframe {
+        height: 55vh;
+        overflow: hidden;
+        z-index: 1;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    main {
+        top: 150px;
+        left: 0;
+        right: 0;
+        width: 100vw;
+        padding: 10px;
+    }
+
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    .list {
+        width: 60%;
+    }
+
+    .phones {
+        display: grid;
+        grid-template-columns: auto auto;
+        width: 100%;
+    }
+
+    .phones article {
+        height: fit-content;
+        width: 100%;
+    }
+
+    .phones iframe {
+        height: 280px;
+        width: 100%;
+    }
+
+    iframe img {
+        margin-left: 180px;
+    }
+
+    body {
+        min-height: 180vh;
+    }
+
+    .pagination {
+        margin-left: 35%;
+    }
+
+    footer iframe {
+        height: 80vh;
+    }
+
+    header iframe {
+        height: 55vh;
+        overflow: hidden;
+        z-index: 1;
     }
 }

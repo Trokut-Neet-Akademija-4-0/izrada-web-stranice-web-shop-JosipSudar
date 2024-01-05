@@ -31,3 +31,19 @@ button:hover {
 input:focus {
     outline: none;
 }
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .btn {
+        display: none;
+    }
+
+    .input {
+        margin-top: 10px;
+        display: flex;
+        width: 100%;
+    }
+
+    .input input {
+        width: 100vw;
+    }
+}
