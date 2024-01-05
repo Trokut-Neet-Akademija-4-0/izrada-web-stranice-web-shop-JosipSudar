@@ -232,7 +232,7 @@ hr {
 .newsletter-content input[type="text"] {
   margin-top: 40%;
   width: 80%;
-  height: 15%;
+  height: 30px;
   border: none;
 }
 
@@ -248,7 +248,7 @@ hr {
 
 .newsletter-content button {
   margin-left: -5px;
-  height: 15.3%;
+  height: 30px;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
   border: none;
@@ -272,4 +272,170 @@ hr {
 
 footer {
   height: fit-content;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  * {
+    box-sizing: border-box;
+  }
+
+  header iframe {
+    height: 45vh;
+    overflow: hidden;
+  }
+
+  h1 {
+    top: 55%
+  }
+
+  .shop_now {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .bloggrid {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .newsletter-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .newsletter-content input[type="text"] {
+    width: 80%;
+    height: 30px;
+  }
+
+  .newsletter {
+    height: 78vh;
+  }
+
+  .newsletter-content button {
+    height: 30px;
+  }
+
+  .newsinput {
+    align-self: center;
+  }
+
+  .newsletter-content input[type="checkbox"] {
+    margin-right: 5px;
+  }
+
+  .check {
+    display: flex;
+    align-items: baseline;
+  }
+
+  footer iframe {
+    height: 140vh;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  * {
+    box-sizing: border-box;
+  }
+
+  header iframe {
+    height: 55vh;
+    overflow: hidden;
+  }
+
+  h1 {
+    top: 65%;
+    font-size: 40px;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .bloggrid {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .blogitem {
+    margin: 10px 0;
+  }
+
+  .newsletter-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .newsletter-content input[type="text"] {
+    width: 80%;
+    height: 50px;
+    border: none;
+  }
+
+  .newsletter-content button {
+    height: 50px;
+  }
+
+  .newsinput {
+    align-self: center;
+  }
+
+  .check {
+    display: flex;
+    align-items: baseline;
+  }
+
+  footer iframe {
+    height: 95vh;
+  }
+
+  .blogitem p:nth-child(3) {
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .blogitem p:nth-child(2) {
+    font-size: medium;
+  }
+
+  .blogitem a {
+    font-size: medium;
+  }
+
+  .grid-item p {
+    font-size: 18px;
+  }
+
+  .details span {
+    font-size: medium;
+  }
+
+  .shop1 p,
+  .shop2 p {
+    font-size: 25px;
+  }
+
+  .shop1 a,
+  .shop2 a {
+    font-size: 20px;
+  }
 }
