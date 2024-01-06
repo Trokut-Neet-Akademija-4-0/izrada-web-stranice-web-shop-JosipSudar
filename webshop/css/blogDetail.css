@@ -112,3 +112,58 @@ a {
 a:hover {
     color: goldenrod
 }
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    main {
+        top: 170px;
+        left: 0%;
+        right: 0%;
+        margin: 5px;
+    }
+
+    .man-image img {
+        width: 30%;
+    }
+
+    .man-image p {
+        font-size: larger;
+    }
+
+    .man-image {
+        margin: 50px 0;
+    }
+
+    .coverphoto {
+        height: 500px;
+    }
+
+    body {
+        min-height: 520vh;
+    }
+
+    footer iframe {
+        height: 110vh;
+    }
+
+    header iframe {
+        height: 55vh;
+        overflow: hidden;
+        z-index: 1;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    body {
+        min-height: 370vh;
+    }
+
+    footer iframe {
+        height: 100vh;
+    }
+
+    header iframe {
+        height: 55vh;
+        overflow: hidden;
+        z-index: 1;
+    }
+}

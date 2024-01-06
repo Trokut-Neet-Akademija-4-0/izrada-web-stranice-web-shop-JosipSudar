@@ -108,7 +108,7 @@ a {
 }
 
 a:hover:not(.logo a) {
-  text-decoration: overline;
+  text-decoration: underline;
 }
 
 .topnav {

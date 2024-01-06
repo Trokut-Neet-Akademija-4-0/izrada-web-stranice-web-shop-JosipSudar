@@ -295,7 +295,7 @@ footer {
 
   .grid-container {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto;
     width: 100%;
     overflow: hidden;
   }
@@ -333,15 +333,18 @@ footer {
 
   .newsletter-content input[type="checkbox"] {
     margin-right: 5px;
+    height: 50px;
+    margin-left: 10px;
   }
 
   .check {
     display: flex;
-    align-items: baseline;
+    align-items: last baseline;
+    margin-top: 40px;
   }
 
   footer iframe {
-    height: 140vh;
+    height: 110vh;
   }
 }
 

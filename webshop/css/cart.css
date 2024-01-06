@@ -124,3 +124,72 @@ a:hover {
 .cart-total button:hover {
     transform: scale(1.03);
 }
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    main {
+        top: 170px;
+        left: 0;
+        right: 0;
+        margin: 5px;
+    }
+
+    section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .quantity {
+        margin: 20px 0;
+    }
+
+    section img {
+        width: 50%;
+    }
+
+    .name {
+        margin: 20px 0;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .buttons button {
+        margin: 5px 0;
+    }
+
+    body {
+        min-height: 260vh;
+    }
+
+    footer iframe {
+        height: 110vh;
+    }
+
+    header iframe {
+        height: 55vh;
+        overflow: hidden;
+        z-index: 1;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .last {
+        font-size: 19px;
+    }
+
+    body {
+        min-height: 110vh;
+    }
+
+    footer iframe {
+        height: 100vh;
+    }
+
+    header iframe {
+        height: 55vh;
+        overflow: hidden;
+        z-index: 1;
+    }
+}
